@@ -1,9 +1,12 @@
 var output = [];
 var count = 1;
 function fizzBuzz() {
+
+    while (count <= 100) {
+
     if (count % 3 === 0 && count % 5 === 0) {
     }
-    else if (count % 3 === 0) {
+        else if (count % 3 === 0) {
         output.push("fizz")
         }
         else if (count % 5 === 0) {
@@ -14,6 +17,6 @@ function fizzBuzz() {
         }
 
         count++;
-
-            console.log()
         }
+        console.log()
+}
